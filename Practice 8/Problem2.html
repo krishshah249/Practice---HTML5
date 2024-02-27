@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <form name="details">
+        <table border=3 style="background-color: lightblue">
+            <caption><h2>Candidate Information</h2></caption>
+            <tr>
+                <td>Name</td>
+                <td>
+                        <input type= "text" max="15" name="name" required>
+                </td>
+            </tr>
+            <tr>
+                    <td>Password</td>
+                    <td>
+                            <input type= "password" max=15 name="password" required>
+                    </td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td>
+                        <input type= "number" size=10 name="PhoneNo" required>
+                </td>
+            </tr>
+            <tr>
+                    <td>Gender</td>
+                    <td>
+                            <input type="radio" name="gender" value="Male">Male<br/>
+                            <input type="radio" name="gender" value="Female">Female<br/>
+                    </td>
+            </tr>
+            <tr>
+                <td>Date of birth</td>
+                <td>
+                        <input type="date" name="date" value="date" required><br/>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                        <input type= "email" max=15 name="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Highest Qualification</td>
+                <td><input id="Highest_Qualification" name="Highest_Qualification" placeholder="Select Highest Qualification" type="text" list="Qualification" /></td>
+                <td><datalist id="Qualification">
+                   <option value="B.Tech">
+                   <option value="M.Tech">
+                   <option value="MBA">
+                   <option value="MCA">
+                   <option value="MSc">
+                   <option value="MA">
+                   <option value="BSc">
+                </datalist></td>
+                </tr>
+            <tr>
+                    <td>Courses Interested In</td>
+                    <td>
+                        <input type="checkbox" name="JAVA" value="JAVA">JAVA
+                        <input type="checkbox" name="HTML5" value="HTML5">HTML5
+                        <input type="checkbox" name="CSS3" value="CSS3">CSS3
+                        <input type="checkbox" name="Angular_JS" value="Angular_JS">Angular JS
+                        <input type="checkbox" name="JQuery" value="JQuery">JQuery
+                    </td>
+            </tr>
+            <tr>
+                <td>Comments:(Mention External Certifications if any)</td>
+                <td>
+                    <textarea name="address" rows="5" cols="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                    <td>Upload Degree/External Certificates</td>
+                    <td>
+                         <input type="file" name="Certifications">
+                    </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                     <input type="submit" value="Submit Information">
+                     <input type="reset" value="Clear">
+                </td>
+        </tr>
+        </form>
+    </table>
+    </body>
+</html>

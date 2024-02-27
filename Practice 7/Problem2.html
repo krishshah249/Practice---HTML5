@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <form name="details">
+        <table border=3 style="background-color: lightblue">
+            <tr>
+                <td>Name</td>
+                <td>
+                        <input type= "text" size=20 name="name">
+                </td>
+            </tr>
+            <tr>
+                    <td>Employee Code</td>
+                    <td>
+                            <input type= "text" size=4 name="EmployeeCode">
+                    </td>
+            </tr>
+            <tr>
+                    <td>Department</td>
+                    <td>
+                            <input type="radio" name="dept" value="Admin">Admin<br/>
+                            <input type="radio" name="dept" value="HR">HR<br/>
+                            <input type="radio" name="dept" value="Technical">Technical<br/>
+                            <input type="radio" name="dept" value="Accounts">Accounts
+                    </td>
+            </tr>
+            <tr>
+                    <td>Date of joining</td>
+                    <td>
+                            <input type="number" min=1 max=31 name="day" value="day">
+                            <input type="month" name="month" value="month"><br/>dd   mm  yyyy
+                    </td>
+            </tr>
+            <tr>
+                    <td>Address</td>
+                    <td>
+                        <textarea name="address" rows="10" cols="7"></textarea>
+                    </td>
+            </tr>
+            <tr>
+                    <td>Training Program Attended</td>
+                    <td>
+                            <input type="checkbox" name="HTML/DHTML" value="HTML/DHTML">HTML/DHTML<br/>
+                           <input type="checkbox" name="JAVA" value="JAVA">JAVA<br/>
+                           <input type="checkbox" name="Client/Server" value="Client/Server">Client/Server<br/>
+                            <input type="checkbox" name=".NET" value=".NET">.NET
+                    </td>
+            </tr>
+            <tr>
+                    <td>Training Program Need To Attend</td>
+                    <td>
+                           <select name="prog">
+                               <option value="JavaScript">JavaScript</option>
+                           </select>
+                    </td>
+            </tr>
+            <tr>
+                    <td>Send The Information At</td>
+                    <td>
+                          <a href="mailto:empinfo@capgemini.com">empinfo@capgemini.com</a>
+                    </td>
+            </tr>
+        </form>
+    </table>
+    </body>
+</html>
